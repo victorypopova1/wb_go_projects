@@ -118,7 +118,7 @@ func main() {
 		CurrentTask:  "Настраивает авторизацию по протоколу OAuth 2.0",
 	}
 
-	fmt.Println("\nКлим использует методы унаследованные от Human:")
+	fmt.Println("Джон использует методы унаследованные от Human:")
 	fmt.Println(strings.Repeat("-", 70))
 	person.Introduce()
 	person.ShareBio()
@@ -152,13 +152,11 @@ func main() {
 	fmt.Printf("Уровень: %s\n", person.SkillLevel)
 
 	fmt.Println("\n" + strings.Repeat("=", 70))
-	fmt.Println("Клим - security-oriented разработчик:")
+	fmt.Println("Джон - security-oriented разработчик:")
 	fmt.Println("Глубоко разбирается в OAuth 2.0 и JWT")
 	fmt.Println("Пишет безопасный код на Go и React")
 	fmt.Println("Знает все про authentication и authorization")
 	fmt.Println("Умеет работать с Docker и cloud infrastructure")
 	fmt.Println(strings.Repeat("=", 70))
-	fmt.Println("Embedded struct позволяет Action использовать")
-	fmt.Println("все методы Human через композицию!")
 	fmt.Println(strings.Repeat("=", 70))
 }
