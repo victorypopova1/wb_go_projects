@@ -6,10 +6,8 @@ import (
 
 func SetBit(num int64, i uint, bit int) int64 {
 	if bit == 1 {
-		// в 1 с помощью OR
 		return num | (1 << i)
 	} else {
-		// в 0 с помощью AND NOT
 		return num &^ (1 << i)
 	}
 }
